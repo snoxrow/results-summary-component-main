@@ -61,7 +61,7 @@ button.onclick = () => {
   alert("Thank you for clicking continue ");
 };
 
-let screen = window.matchMedia("(min-width: 300px) and (orientation: landscape)");
+let screen = window.matchMedia("(max-height: 430px) and (orientation: landscape)");
 function rotate(screen) {
   if (screen.matches) {
     alert("Please rotate your screen!");
