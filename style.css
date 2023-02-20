@@ -163,3 +163,7 @@ span {
     flex-direction: column;
   }
 }
+
+@media screen  and (min-width: 300px) and (orientation: landscape){
+   
+}

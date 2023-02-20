@@ -1,7 +1,6 @@
 let scores = document.querySelectorAll(".scr");
 let subjects = document.querySelectorAll(".subject");
-let button = document.getElementById("btn")
-
+let button = document.getElementById("btn");
 
 let data = [
   {
@@ -58,4 +57,17 @@ function getScores(object, index) {
   subjects[index].appendChild(subjectTitle);
 }
 
-button.onclick = () => {alert('Thank you for clicking continue ')};
+button.onclick = () => {
+  alert("Thank you for clicking continue ");
+};
+
+let screen = window.matchMedia("(min-width: 300px) and (orientation: landscape)");
+function rotate(screen) {
+  if (screen.matches) {
+    alert("Please rotate your screen!");
+  } else {
+  }
+}
+
+rotate(screen);
+screen.addListener(rotate);
