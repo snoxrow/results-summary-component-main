@@ -158,15 +158,13 @@ span {
 
 @media screen and (max-width: 430px) {
   .container {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-height: 430px) and (orientation: landscape) {
   .container {
     transform: rotate(-90deg);
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }

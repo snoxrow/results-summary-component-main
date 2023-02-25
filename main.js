@@ -57,9 +57,9 @@ function getScores(object, index) {
   subjects[index].appendChild(subjectTitle);
 }
 
-button.onclick = () => {
-  alert("Thank you for clicking continue ");
-};
+// button.onclick = () => {
+//   alert("Thank you for clicking continue ");
+// };
 
 let screen = window.matchMedia("(max-height: 430px) and (orientation: landscape)");
 function rotate(screen) {
